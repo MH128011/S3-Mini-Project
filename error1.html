@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="showPage('home')">Home</a></li>
+                <li><a href="contact.html" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Error Page Content -->
+        <section id="error" class="page active">
+            <header>
+                <h2>Oops! Page Not Found</h2>
+            </header>
+            <main>
+                <p>Sorry, the page you were looking for doesn't exist.</p>
+                <a href="index.html" onclick="showPage('home')">Go Back to Homepage</a>
+            </main>
+        </section>
+
+    </div>
+</body>
+</html>
